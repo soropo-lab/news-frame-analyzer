@@ -77,6 +77,7 @@ python-dotenv
 OpenRouter API Key는 절대 외부에 공개하지 마세요.
 JTBC 기사는 React SPA 구조이므로 Selenium이 필요합니다.
 기사 본문을 그대로 저장·재배포하는 것은 저작권 이슈가 있을 수 있으므로 분석 목적으로만 사용하세요.
+
 Never share or commit your OpenRouter API Key publicly.
 JTBC articles use React SPA, so Selenium is required for rendering.
 Do not store or redistribute raw news content — use it for analysis only to avoid copyright issues.
