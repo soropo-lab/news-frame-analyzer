@@ -30,16 +30,17 @@ git clone https://github.com/soropo-lab/news-frame-analyzer.git
 cd news-frame-analyzer
 ```
 
-###2️⃣ 패키지 설치 | Install dependencies
+### 2️⃣ 패키지 설치 | Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-###3️⃣ .env 파일 생성 | Create .env file
+### 3️⃣ .env 파일 생성 | Create .env file
 ```bash
 루트 디렉토리에 .env 파일을 만들고 다음을 추가하세요👇
 Create a .env file in the root directory and add:
-
+```
+```bash
 OPENROUTER_API_KEY=YOUR_OPENROUTER_KEY
 OPENROUTER_URL=https://openrouter.ai/api/v1/chat/completions
 MODEL_NAME=openai/gpt-4-turbo-preview
@@ -48,32 +49,33 @@ MODEL_NAME=openai/gpt-4-turbo-preview
 ⚠️ .env 파일은 .gitignore에 포함되어 있으며 절대 공개 저장소에 커밋하면 안 됩니다.
 ⚠️ .env is included in .gitignore and must never be committed to a public repo.
 
-###4️⃣ 앱 실행 | Run the app
+### 4️⃣ 앱 실행 | Run the app
+```bash
 streamlit run app.py
+```
 
-###🧪 사용 방법 | How to Use
-
+### 🧪 사용 방법 | How to Use
 app.py를 실행
-
 뉴스 기사 URL을 입력하고 “분석 시작” 클릭
-
 기사 본문 수집 후 GPT 기반 분석 결과가 표로 출력됨
-
+```bash
 Run app.py
+```
 
 Paste a news article URL and click "Analyze"
-
 The article will be crawled, analyzed, and displayed as a structured table
 
-###📝 Requirements
+### 📝 Requirements
+```bash
 Python 3.9+
 Streamlit
 Requests
 BeautifulSoup4
 Selenium + webdriver-manager (for JTBC)
 python-dotenv
+```
 
-###⚠️ 주의사항 | Notes
+### ⚠️ 주의사항 | Notes
 OpenRouter API Key는 절대 외부에 공개하지 마세요.
 JTBC 기사는 React SPA 구조이므로 Selenium이 필요합니다.
 기사 본문을 그대로 저장·재배포하는 것은 저작권 이슈가 있을 수 있으므로 분석 목적으로만 사용하세요.
@@ -81,7 +83,7 @@ Never share or commit your OpenRouter API Key publicly.
 JTBC articles use React SPA, so Selenium is required for rendering.
 Do not store or redistribute raw news content — use it for analysis only to avoid copyright issues.
 
-###License
+### License
 이 프로젝트는 MIT 라이선스를 따릅니다.
 자유롭게 포크하고 수정하여 사용 가능합니다.
 
