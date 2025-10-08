@@ -1,0 +1,13 @@
+# --- Core ---
+beautifulsoup4==4.12.3
+requests==2.32.3
+numpy==1.26.4
+scikit-learn==1.5.2
+konlpy==0.6.0
+
+# --- Web Scraping ---
+selenium==4.25.0
+webdriver-manager==4.0.2
+
+# --- Optional (출력 가독성 등 향후 확장용) ---
+textwrap3==0.9.2
