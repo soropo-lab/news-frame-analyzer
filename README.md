@@ -46,9 +46,6 @@ OPENROUTER_URL=https://openrouter.ai/api/v1/chat/completions
 MODEL_NAME=openai/gpt-4-turbo-preview
 ```
 
-⚠️ .env 파일은 .gitignore에 포함되어 있으며 절대 공개 저장소에 커밋하면 안 됩니다.
-
-⚠️ .env is included in .gitignore and must never be committed to a public repo.
 
 ### 4️⃣ 앱 실행 | Run the app
 ```bash
